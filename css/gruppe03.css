@@ -34,3 +34,51 @@
 p {
     font-size: 32px;
 }
+
+#orjanFigurSVG {
+    position: relative;
+    
+}
+
+#orjanFigurCanvas {
+    position: relative;
+    
+}
+
+.left-eye {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+
+.left-pupil {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.right-eye {
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+
+.right-pupil {
+    position: absolute;
+    top: 80px;
+    left: 130px;
+}
+
+.mouth {
+    position: absolute;
+    top: 190px;
+    left: 75px;
+}
+
+/*Egen klasse for canvas munn pga korreksjon for padding i funksjon  */
+.mouthC {
+    position: absolute;
+    top: 190px;
+    left: 65px;
+}
+
