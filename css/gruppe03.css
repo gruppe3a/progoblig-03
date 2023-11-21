@@ -33,3 +33,23 @@
 p {
     font-size: 32px;
 }
+
+#terjeFigurCanvas {
+    position: relative;
+}
+
+#terjeFigurSVG {
+    position: relative;
+}
+
+.japan-circle {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+.japan-circle-svg {
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+}
