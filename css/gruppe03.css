@@ -139,3 +139,21 @@ p {
     top: 190px;
     left: 65px;
 }
+
+#noahFigureC {
+    position: relative;
+}
+
+#noahFigureSVG {
+    position: relative;
+}
+
+.outer-circ {
+    position: absolute;
+    left: 0;
+}
+
+.inner-circ {
+    position: absolute;
+    left: 0;
+}
