@@ -94,7 +94,7 @@ p {
     left: 35px;
 }
 
-#orjanFigurSVG {
+#orjanFigurSVG, #tobiasFigurSVG, #tobiasFigurCanvas {
     position: relative;
     
 }
@@ -163,4 +163,22 @@ p {
 
 .innercircleC {
     position: absolute;
+}
+
+.mouth-tobias {
+    position: absolute;
+    left: 110px;
+    bottom: 90px;
+}
+
+.left-eye-tobias {
+    position: absolute;
+    left: 70px;
+    bottom: 170px;
+}
+
+.right-eye-tobias {
+    position: absolute;
+    left: 170px;
+    bottom: 170px;
 }
