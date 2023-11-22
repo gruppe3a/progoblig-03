@@ -2,7 +2,7 @@
 const face = circleSVG(160, "solid", "grey")
 const LeftEye = circleSVG(30, "solid", "red")
 const RightEye = circleSVG(30, "solid", "red")
-const mouth = triangleSVG(80, "solid", "black")
+const mouth = rectangleSVG(70, 10, "solid", "black")
 
 par.appendChild(face)
 par.appendChild(LeftEye)
@@ -15,7 +15,7 @@ par.appendChild(mouth)
 const faceCanvas = circle(160, "solid", "grey")
 const LeftEyeCanvas = circle(30, "solid", "red")
 const RightEyeCanvas = circle(30, "solid", "red")
-const mouthCanvas = triangle(80, "solid", "black")
+const mouthCanvas = rectangle(70, 10, "solid", "black")
 
 parCanvas.appendChild(faceCanvas)
 parCanvas.appendChild(LeftEyeCanvas)

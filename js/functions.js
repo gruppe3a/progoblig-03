@@ -41,8 +41,8 @@ function circleSVG(radius, mode, color) {
     svg.setAttributeNS(null, "height", radius * 2 + 20)
 
 
-    const centerX = radius + 10 // adjusted for padding
-    const centerY = radius + 10 // adjusted for padding
+    const centerX = radius //+ 10 // adjusted for padding
+    const centerY = radius //+ 10 // adjusted for padding
     
     if (mode == "outline") {
         svg.innerHTML = `<circle cx="${centerX}" cy="${centerY}" r="${radius}" fill="transparent" stroke="${color}">`
