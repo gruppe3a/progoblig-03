@@ -11,9 +11,10 @@ body {
     border: 0px solid black;
     border-radius: 10px;
     width: 300px;
-    height: 150px;
+    height: 100px;
     text-align: center;
     margin-top: 50px;
+    border: 3px solid #ea81ff;
 }
 
 .medlemmer {
@@ -61,7 +62,7 @@ p {
 
 .japan-circle-svg {
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
     left: 100px;
 }
 
@@ -93,7 +94,7 @@ p {
     left: 35px;
 }
 
-#orjanFigurSVG {
+#orjanFigurSVG, #tobiasFigurSVG, #tobiasFigurCanvas {
     position: relative;
     
 }
@@ -130,15 +131,15 @@ p {
 .mouth {
     position: absolute;
     top: 190px;
-    left: 75px;
+    left: 65px;
 }
 
 /*Egen klasse for canvas munn pga korreksjon for padding i funksjon  */
-.mouthC {
+/* .mouthC {
     position: absolute;
     top: 190px;
     left: 65px;
-}
+} */
 
 .bg {
     position: absolute;
@@ -162,4 +163,22 @@ p {
 
 .innercircleC {
     position: absolute;
+}
+
+.mouth-tobias {
+    position: absolute;
+    left: 110px;
+    bottom: 90px;
+}
+
+.left-eye-tobias {
+    position: absolute;
+    left: 70px;
+    bottom: 170px;
+}
+
+.right-eye-tobias {
+    position: absolute;
+    left: 170px;
+    bottom: 170px;
 }
