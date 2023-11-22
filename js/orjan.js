@@ -47,7 +47,7 @@ const RightPupilCanvas = circle(10, "solid", "black")
 RightPupilCanvas.classList.add("right-pupil")
 
 const mouthCanvas = rectangle(70, 10, "solid", "black")
-mouthCanvas.classList.add("mouthC")
+mouthCanvas.classList.add("mouth")
 
 parCanvas.appendChild(faceCanvas)
 parCanvas.appendChild(LeftEyeCanvas)
