@@ -165,6 +165,14 @@ p {
     position: absolute;
 }
 
+#canvasP {
+    padding-top: 100px;
+}
+
+#info {
+    padding-top: 120px;
+}
+
 .mouth-tobias {
     position: absolute;
     left: 110px;
