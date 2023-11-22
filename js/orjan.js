@@ -1,57 +1,59 @@
 
 //elementer til figuren i SVG
-const par = document.getElementById("orjanFigurSVG")
+const parOrjan = document.getElementById("orjanFigurSVG")
 
-const face = circleSVG(100, "solid", "yellow")
-face.classList.add("face")
+const faceOrjan = circleSVG(100, "solid", "yellow")
+faceOrjan.classList.add("face")
 
-const LeftEye = circleSVG(20, "solid", "white")
-LeftEye.classList.add("left-eye")
+const LeftEyeS = circleSVG(20, "solid", "white")
+LeftEyeS.classList.add("left-eye")
 
 const LeftPupil = circleSVG(10, "solid", "black")
 LeftPupil.classList.add("left-pupil")
 
-const RightEye = circleSVG(20, "solid", "white")
-RightEye.classList.add("right-eye")
+const RightEyeS = circleSVG(20, "solid", "white")
+RightEyeS.classList.add("right-eye")
 
 const RightPupil = circleSVG(10, "solid", "black")
 RightPupil.classList.add("right-pupil")
 
-const mouth = rectangleSVG(70, 10, "solid", "black")
-mouth.classList.add("mouth")
+const mouthS = rectangleSVG(70, 10, "solid", "black")
+mouthS.classList.add("mouth")
 
-par.appendChild(face)
-par.appendChild(LeftEye)
-par.appendChild(LeftPupil)
-par.appendChild(RightEye)
-par.appendChild(RightPupil)
-par.appendChild(mouth)
+parOrjan.appendChild(faceOrjan)
+parOrjan.appendChild(LeftEyeS)
+parOrjan.appendChild(LeftPupil)
+parOrjan.appendChild(RightEyeS)
+parOrjan.appendChild(RightPupil)
+parOrjan.appendChild(mouthS)
 
 
 //elementer til figuren i Canvas
-const parCanvas = document.getElementById("orjanFigurCanvas")
+const parCanvasO = document.getElementById("orjanFigurCanvas")
 
-const faceCanvas = circle(100, "solid", "yellow")
-faceCanvas.classList.add("face")
+if (parCanvasO) {
+    const faceCanvas = circle(100, "solid", "yellow")
+    faceCanvas.classList.add("face")
 
-const LeftEyeCanvas = circle(20, "solid", "white")
-LeftEyeCanvas.classList.add("left-eye")
+    const LeftEyeCanvas = circle(20, "solid", "white")
+    LeftEyeCanvas.classList.add("left-eye")
 
-const LeftPupilCanvas = circle(10, "solid", "black")
-LeftPupilCanvas.classList.add("left-pupil")
+    const LeftPupilCanvas = circle(10, "solid", "black")
+    LeftPupilCanvas.classList.add("left-pupil")
 
-const RightEyeCanvas = circle(20, "solid", "white")
-RightEyeCanvas.classList.add("right-eye")
+    const RightEyeCanvas = circle(20, "solid", "white")
+    RightEyeCanvas.classList.add("right-eye")
 
-const RightPupilCanvas = circle(10, "solid", "black")
-RightPupilCanvas.classList.add("right-pupil")
+    const RightPupilCanvas = circle(10, "solid", "black")
+    RightPupilCanvas.classList.add("right-pupil")
 
-const mouthCanvas = rectangle(70, 10, "solid", "black")
-mouthCanvas.classList.add("mouth")
+    const mouthCanvas = rectangle(70, 10, "solid", "black")
+    mouthCanvas.classList.add("mouth")
 
-parCanvas.appendChild(faceCanvas)
-parCanvas.appendChild(LeftEyeCanvas)
-parCanvas.appendChild(LeftPupilCanvas)
-parCanvas.appendChild(RightEyeCanvas)
-parCanvas.appendChild(RightPupilCanvas)
-parCanvas.appendChild(mouthCanvas)
+    parCanvasO.appendChild(faceCanvas)
+    parCanvasO.appendChild(LeftEyeCanvas)
+    parCanvasO.appendChild(LeftPupilCanvas)
+    parCanvasO.appendChild(RightEyeCanvas)
+    parCanvasO.appendChild(RightPupilCanvas)
+    parCanvasO.appendChild(mouthCanvas)
+}

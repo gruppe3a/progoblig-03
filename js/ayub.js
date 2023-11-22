@@ -10,11 +10,13 @@ par.appendChild(circl1)
 par.appendChild(circl2)
 
 
-const parCanvas = document.getElementById("ayubFigurCanvas") 
-const circlCanvas = circle(20, "solid", "green")
-const circlCanvas1 = circle(20, "solid", "green")
-const circlCanvas2 = circle(20, "solid", "green")
+const ayubParCanvas = document.getElementById("ayubFigurCanvas") 
+if (ayubParCanvas) {
+    const circlCanvas = circle(20, "solid", "green")
+    const circlCanvas1 = circle(20, "solid", "green")
+    const circlCanvas2 = circle(20, "solid", "green")
 
-parCanvas.appendChild(circlCanvas)
-parCanvas.appendChild(circlCanvas1)
-parCanvas.appendChild(circlCanvas2)
+    ayubParCanvas.appendChild(circlCanvas)
+    ayubParCanvas.appendChild(circlCanvas1)
+    ayubParCanvas.appendChild(circlCanvas2)
+}
