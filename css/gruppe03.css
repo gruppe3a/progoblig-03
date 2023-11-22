@@ -1,8 +1,14 @@
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .medlem {
     padding: 20px;
-    border: 2px solid black;
+    border: 0px solid black;
     border-radius: 10px;
     width: 300px;
     height: 150px;
@@ -17,12 +23,15 @@
 }
 
 .medlem:hover {
-    background-color: #eee;
+    background-color: #ea81ff;
 }
 
 .medleminfo {
-  
     font-size: 32px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
 
     
@@ -33,6 +42,35 @@
 
 p {
     font-size: 32px;
+}
+
+
+.container h1 {
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(158, 73, 238);
+}
+
+#BenjaminFigurCanvas {
+    position: relative;
+}
+
+#BenjaminFigurSVG {
+    position: relative;
+}
+
+.innersquare {
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+
+.lastsquare {
+    position: absolute;
+    top: 70px;
+    left: 35px;
 }
 
 #orjanFigurSVG {
@@ -81,4 +119,3 @@ p {
     top: 190px;
     left: 65px;
 }
-
