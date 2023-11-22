@@ -139,3 +139,27 @@ p {
     top: 190px;
     left: 65px;
 }
+
+.bg {
+    position: absolute;
+}
+
+.outercircle {
+    position: absolute;
+}
+
+.innercircle {
+    position: absolute;
+}
+
+.bgC {
+    position: absolute;
+}
+
+.outercircleC {
+    position: absolute;
+}
+
+.innercircleC {
+    position: absolute;
+}
