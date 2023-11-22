@@ -27,7 +27,6 @@ body {
 }
 
 .medleminfo {
-    /*margin: 200px 30%;*/
     font-size: 32px;
     color: blueviolet;
     display: flex;
@@ -35,6 +34,7 @@ body {
     margin-top: 80px;
 }
 
+    
 .container {
     max-width: 800px;
     margin: auto;
@@ -43,6 +43,7 @@ body {
 p {
     font-size: 32px;
 }
+
 
 .container h1 {
     text-align: center;
@@ -70,4 +71,51 @@ p {
     position: absolute;
     top: 70px;
     left: 35px;
+}
+
+#orjanFigurSVG {
+    position: relative;
+    
+}
+
+#orjanFigurCanvas {
+    position: relative;
+    
+}
+
+.left-eye {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+
+.left-pupil {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.right-eye {
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+
+.right-pupil {
+    position: absolute;
+    top: 80px;
+    left: 130px;
+}
+
+.mouth {
+    position: absolute;
+    top: 190px;
+    left: 75px;
+}
+
+/*Egen klasse for canvas munn pga korreksjon for padding i funksjon  */
+.mouthC {
+    position: absolute;
+    top: 190px;
+    left: 65px;
 }
