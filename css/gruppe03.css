@@ -45,6 +45,26 @@ p {
 }
 
 
+#terjeFigurCanvas {
+    position: relative;
+}
+
+#terjeFigurSVG {
+    position: relative;
+}
+
+.japan-circle {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+.japan-circle-svg {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
 .container h1 {
     text-align: center;
     font-family: arial;
