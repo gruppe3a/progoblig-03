@@ -93,5 +93,6 @@ function rectangleSVG(width, height, mode, color) {
     else {
         svg.innerHTML = `<rect x="0" y="0" width="${width}" height="${height}" fill="${color}">`
     }
+    
     return svg
 }
