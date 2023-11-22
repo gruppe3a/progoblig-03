@@ -39,15 +39,17 @@ pairSVG.appendChild(innercircleSVG)
 
 
 const pairCanvas = document.getElementById("noahFigureC") 
-const bg = rectangle(160, 160, "solid", "darkred")
-bg.classList.add("bgC")
+if (pairCanvas) {
+    const bg = rectangle(160, 160, "solid", "darkred")
+    bg.classList.add("bgC")
 
-const outercircle = circle(60,  "outline", "yellow")
-outercircle.classList.add("outercircleC")
+    const outercircle = circle(60,  "outline", "yellow")
+    outercircle.classList.add("outercircleC")
 
-const innercircle = circle(59, "solid", "black")
-innercircle.classList.add("innercircleC")
+    const innercircle = circle(59, "solid", "black")
+    innercircle.classList.add("innercircleC")
 
-pairCanvas.appendChild(bg)
-pairCanvas.appendChild(outercircle)
-pairCanvas.appendChild(innercircle)
+    pairCanvas.appendChild(bg)
+    pairCanvas.appendChild(outercircle)
+    pairCanvas.appendChild(innercircle)
+}
